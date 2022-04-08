@@ -310,5 +310,144 @@ header {
 
 /* 파트3 시작 */
 
+.contactbox {
+  background-color: rgb(33,33,33);
+  color: white;
+  width: auto;
+  height: 800px;
+}
+
+.leftbox {
+  float: left;
+  margin-right: 100px;
+  margin-left: 450px;
+}
+
+.rightbox {
+  display: inline-block;
+}
+
+/* +contact 부분 */
+
+.plus {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.heading {
+  font-size: 45px;
+}
+
+/* 메일/전화번호 부분 */
+.contact {
+  margin-top:50px;
+}
+
+.contact img {
+  margin-left: 50px;
+}
+
+#mail img{
+  float: left;
+}
+
+#phone img{
+  float: left;
+}
+
+#phone {
+  font-size: 20px;
+  font-weight:lighter
+}
+
+/* 주소 부분 */
+
+.address {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+/* 지도 부분 */
+
+.map iframe{
+  width: 300px;
+  height: 300px;
+}
+
+.map {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.rightbox {
+  margin-top: 100px;
+}
+
+/* 입력란 부분 */
+
+.name, .email, .phone{
+  width: 221px;
+  height: 25px;
+  margin-bottom: 12px;
+  margin-right: 3px;
+}
+
+.basicinfo {
+  float:left;
+}
+
+.message {
+  display: inline-block;
+}
+
+.writetext { 
+ width: 221px;
+ height: 98px;  
+ padding: 12px 10px 3px 24px;
+ margin-bottom: 10px;
+}
+
+.submit {
+  background-color: #fce205;
+  width: 104px;
+  height: 30px;
+  float: right;
+
+}
+
+::placeholder{
+  position: absolute;
+}
+
+/* 우측 박스 부분 */
+
+.box1 {
+  border-bottom: 2px solid white;
+  padding-bottom: 50px;
+}
+
+.box2 {
+  margin-top:50px;
+}
+
+/* footer 부분 */
+
+footer {
+  margin-top: 30px;
+}
+
+.last {
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
+
+.sns1 {
+  margin-left:30px;
+}
+
+.sns2 {
+  margin-left: 5px;
+}
 
 /* 파트3 끝 */
