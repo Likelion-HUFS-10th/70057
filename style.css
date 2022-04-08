@@ -162,10 +162,292 @@ header {
 
 
 /* 파트2 시작 */
+/* 배경색, 세로 가운데 정렬 */
+.job_category {
+  background-color: #FCD307;
+  text-align: center;
+  height: 450px;
+  line-height: 450px;
+}
+
+/* 직업 text */
+.job_category p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* 아이콘 뒤 배경 */
+.img_cover {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: white;
+  /* 원형으로 만들기 위함 */
+  border-radius: 50%;
+  /* 아이콘 가운데 정렬 */
+  margin-left: auto;
+  margin-right: auto;
+  /* 아이콘과 글자사이 여백 부여 */
+  margin-bottom: 25px;
+}
+
+.job_category img {
+  line-height: normal;
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+}
+
+.wrapper {
+  text-align: center;
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+  height: 250px;
+}
+
+
+/* 각 직업의 크기 부여 */
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+
+/* 각 직업 float이용해서 가로로 위치하게 했습니다. */
+.designers {
+  float: left;
+
+}
+
+.writers {
+  float: left;
+
+}
+
+.directors {
+  float: left;
+}
+
+.producers {
+  float: left;
+
+}
+
+
+/* About US */
+.about_us {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title_wrapper{
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.title_text {
+  font-size: 54px;
+  margin-bottom: 20px;
+}
+
+/* 플러스 기호 */
+.title_text span {
+  font-size: 72px;
+  font-weight: bolder;
+}
+
+.sub_text{
+  padding-left: 72px;
+}
+
+
+/* 사진과 이름, 직책 부분 감싸는 Wrapper 입니다 */
+.about_wrapper {
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.people_pic{
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.place {
+  font-weight: lighter;
+  color: gray;
+}
+
+
+/* text부분 감싸는 Wrapper 입니다 */
+.text_wrapper{
+  width: 920px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_text_1{
+  width: 440px;
+  float: left;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.main_text_2{
+  width: 440px;
+  float: left;
+  margin-left: 20px;
+  text-align: left;
+}
+
 
 /* 파트2 끝 */
 
 
 /* 파트3 시작 */
+
+.contactbox {
+    background-color: rgb(33,33,33);
+    color: white;
+    width: auto;
+    height: 800px;
+}
+
+.leftbox {
+    float: left;
+    margin-right: 100px;
+    margin-left: 450px;
+}
+
+.rightbox {
+    display: inline-block;
+}
+
+/* +contact 부분 */
+
+.plus {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.heading {
+    font-size: 45px;
+}
+
+/* 메일/전화번호 부분 */
+.contact {
+    margin-top:50px;
+}
+
+img {
+    margin-left: 50px;
+}
+
+#mail img{
+    float: left;
+}
+
+#phone img{
+    float: left;
+}
+
+#phone {
+    font-size: 20px;
+    font-weight:lighter
+}
+
+/* 주소 부분 */
+
+.address {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/* 지도 부분 */
+
+.map iframe{
+    width: 300px;
+    height: 300px;
+}
+
+.map {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.rightbox {
+    margin-top: 100px;
+}
+
+/* 입력란 부분 */
+
+.name, .email, .phone{
+    width: 221px;
+    height: 25px;
+    margin-bottom: 12px;
+    margin-right: 3px;
+}
+
+.basicinfo {
+    float:left;
+}
+
+.message {
+    display: inline-block;
+}
+
+.writetext { 
+   width: 221px;
+   height: 98px;  
+   padding: 12px 10px 3px 24px;
+   margin-bottom: 10px;
+}
+
+.submit {
+    background-color: #fce205;
+    width: 104px;
+    height: 30px;
+    float: right;
+
+}
+
+::placeholder{
+    position: absolute;
+}
+
+/* 우측 박스 부분 */
+
+.box1 {
+    border-bottom: 2px solid white;
+    padding-bottom: 50px;
+}
+
+.box2 {
+    margin-top:50px;
+}
+
+/* footer 부분 */
+
+footer {
+    margin-top: 30px;
+}
+
+.last {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+.sns1 {
+    margin-left:30px;
+}
+
+.sns2 {
+    margin-left: 5px;
+}
 
 /* 파트3 끝 */
