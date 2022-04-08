@@ -13,6 +13,148 @@ body {
 
 
 /* 파트2 시작 */
+/* 배경색, 세로 가운데 정렬 */
+.job_category {
+  background-color: #FCD307;
+  text-align: center;
+  height: 450px;
+  line-height: 450px;
+}
+
+/* 직업 text */
+.job_category p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* 아이콘 뒤 배경 */
+.img_cover {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: white;
+  /* 원형으로 만들기 위함 */
+  border-radius: 50%;
+  /* 아이콘 가운데 정렬 */
+  margin-left: auto;
+  margin-right: auto;
+  /* 아이콘과 글자사이 여백 부여 */
+  margin-bottom: 25px;
+}
+
+.job_category img {
+  line-height: normal;
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+}
+
+.wrapper {
+  text-align: center;
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+  height: 250px;
+}
+
+
+/* 각 직업의 크기 부여 */
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+
+/* 각 직업 float이용해서 가로로 위치하게 했습니다. */
+.designers {
+  float: left;
+
+}
+
+.writers {
+  float: left;
+
+}
+
+.directors {
+  float: left;
+}
+
+.producers {
+  float: left;
+
+}
+
+
+/* About US */
+.about_us {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title_wrapper{
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.title_text {
+  font-size: 54px;
+  margin-bottom: 20px;
+}
+
+/* 플러스 기호 */
+.title_text span {
+  font-size: 72px;
+  font-weight: bolder;
+}
+
+.sub_text{
+  padding-left: 72px;
+}
+
+
+/* 사진과 이름, 직책 부분 감싸는 Wrapper 입니다 */
+.about_wrapper {
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.people_pic{
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.place {
+  font-weight: lighter;
+  color: gray;
+}
+
+
+/* text부분 감싸는 Wrapper 입니다 */
+.text_wrapper{
+  width: 920px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_text_1{
+  width: 440px;
+  float: left;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.main_text_2{
+  width: 440px;
+  float: left;
+  margin-left: 20px;
+  text-align: left;
+}
+
 
 /* 파트2 끝 */
 
