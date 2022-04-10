@@ -166,7 +166,7 @@ header {
 .job_category {
   background-color: #FCD307;
   text-align: center;
-  height: 450px;
+  height: 350px;
   line-height: 450px;
 }
 
@@ -319,8 +319,8 @@ header {
 
 .leftbox {
   float: left;
-  margin-right: 100px;
-  margin-left: 450px;
+  margin-right: 150px;
+  margin-left: 300px;
 }
 
 .rightbox {
@@ -433,13 +433,14 @@ header {
 /* footer 부분 */
 
 footer {
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .last {
   color: black;
   text-align: center;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .sns1 {
