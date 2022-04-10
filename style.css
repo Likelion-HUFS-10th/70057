@@ -8,6 +8,7 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* 파트1 시작 */
@@ -315,16 +316,18 @@ header {
   color: white;
   width: auto;
   height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .leftbox {
-  float: left;
-  margin-right: 150px;
-  margin-left: 430px;
+  margin-right: 100px;
+  width: 430px;
 }
 
 .rightbox {
-  display: inline-block;
+  width: 500px;
 }
 
 /* +contact 부분 */
@@ -385,7 +388,12 @@ header {
 
 /* 입력란 부분 */
 
+.info {
+  display: flex;
+}
+
 .name, .email, .phone{
+  position: relative;
   width: 221px;
   height: 25px;
   margin-bottom: 12px;
@@ -393,18 +401,23 @@ header {
 }
 
 .basicinfo {
-  float:left;
+  display: flex;
+  flex-direction: column;  
 }
 
 .message {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .writetext { 
- width: 221px;
- height: 98px;  
- padding: 12px 10px 3px 24px;
- margin-bottom: 10px;
+  position: relative;
+  width: 221px;
+  height: 98px;  
+  padding: 10px 0 0 10px;
+  margin-bottom: 10px;
+  resize: none;
 }
 
 .submit {
@@ -413,10 +426,6 @@ header {
   height: 30px;
   float: right;
 
-}
-
-::placeholder{
-  position: absolute;
 }
 
 /* 우측 박스 부분 */
